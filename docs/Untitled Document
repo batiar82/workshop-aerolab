@@ -1,0 +1,23 @@
+npm add react react-dom next isomorphic-fetch
+
+cargar los scripts de next
+
+npm run dev
+
+
+
+
+vsc style.jsx addon
+
+
+patron css div > :global(h1)... en stylejsx
+
+
+
+
+//<h2>{ story.title}</h2>
+
+localhost:3000/story.js?id=16558680
+
+
+link prefetch no trae los initial props
