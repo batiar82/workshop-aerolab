@@ -33,6 +33,7 @@ export default class extends React.Component{
 				}
 				<style jsx>{''}</style>
 			</Layout>
+		)
 	}
 }
 

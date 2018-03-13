@@ -1,6 +1,9 @@
+import Layout from '../componens/Layout.js'
+
 export default class extends React.Component{
 	render(){
 		return (
+			<Layout title="About...">
 			<div>
 				<h1 className="title">Workshop de NextJS</h1>
 				<img className="image" src="/static/unicorn.jpg" alt="Unicorn"/>
@@ -18,6 +21,8 @@ export default class extends React.Component{
 					}
 				`}
 				</style>
-			</div>)
+			</div>
+			</Layout>
+			)
 	}
 }
